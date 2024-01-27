@@ -5,6 +5,10 @@
   "main": "index.js",
   "scripts": {
     "run-appTwo": "node packages/appTwo/index.js",
+    "start-miniAppOne": "npm run start -w packages/miniAppOne",
+    "start-miniAppTwo": "npm run start -w packages/miniAppTwo",
+    "run-android-miniAppOne": "npm run android -w packages/miniAppOne",
+    "run-android-miniAppTwo": "npm run android -w packages/miniAppTwo",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
