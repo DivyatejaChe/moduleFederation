@@ -12,6 +12,8 @@
   "license": "ISC",
   "workspaces": [
     "packages/appOne",
-    "packages/appTwo"
+    "packages/appTwo",
+    "packages/miniAppOne",
+    "packages/miniAppTwo"
   ]
 }
